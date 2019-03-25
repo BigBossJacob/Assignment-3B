@@ -112,7 +112,7 @@ function calculateButtonTouch1( event )
 costOfPizzaTextField.text = "The total cost is $" .. costOfPizza
 	subTotal = (sizeOfPizza + numberOfToppings)
 subtotalOfPizzaTextField.text = "The subtotal is $" .. subTotal 
-taxOfPizzaTextField.text = "The tax is 1.13"
+taxOfPizzaTextField.text = "The tax is 13%"
 print "order inputed"
 end
 
